@@ -19,9 +19,9 @@ public class ElasticClient {
             .registerTypeAdapter(ZonedDateTime.class, new ZonedDateTimeTypeAdapter())
             .create();
 
-    private static final String TARGET_INDEX = "some-index";
+    private static final String TARGET_INDEX = "alias-some-index";
     private static final String ELASTIC_URL = "https://localhost:9200/";
-    private static final String ELASTIC_API_KEY = "";
+    private static final String ELASTIC_API_KEY = "NS0wUU5JZ0JrTHVIWi1LMk0wWk06SEh3b0FqajdSb3UyUmk1YXBVbHBhZw==";
 
     private HttpClient httpClient = buildClient();
 

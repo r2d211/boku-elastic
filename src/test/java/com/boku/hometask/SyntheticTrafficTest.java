@@ -11,7 +11,7 @@ class SyntheticTrafficTest {
 
     @Test
     public void generates_something() {
-        SyntheticTraffic traffic = new SyntheticTraffic();
+        RandomTraffic traffic = new RandomTraffic();
         List<TrafficRecord> list = traffic.generateForMinute(ZonedDateTime.now());
         assertThat(list.size()).isEqualTo(1);
     }

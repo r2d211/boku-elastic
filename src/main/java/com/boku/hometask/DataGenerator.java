@@ -14,7 +14,7 @@ public class DataGenerator {
 
     private final ZonedDateTime startDate = ZonedDateTime.parse("2021-12-03T00:00:00Z");
 
-    private final List<RowGenerator> rowGenerators = List.of(new SyntheticTraffic());
+    private final List<RowGenerator> rowGenerators = List.of(new DailyCycleGenerator(), new WeeklyCycleGenerator());
     private final ElasticClient elasticClient = new ElasticClient();
 
     public static void main(String[] args) throws Exception {

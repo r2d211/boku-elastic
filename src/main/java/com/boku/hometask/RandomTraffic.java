@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.UUID;
 
-public class SyntheticTraffic implements RowGenerator   {
+public class RandomTraffic implements RowGenerator   {
 
     private Random randy = new SecureRandom();
 
