@@ -1,3 +1,10 @@
+## Solution
+
+* Add Daily and Weekly Traffic Distribution using random.nextGaussian
+* Use Index LifeCycle Management Policy for Rolling Over Index and Moving to Cold Phase for retention
+* Use Transforms to get aggregated information of Daily Data.
+
+
 ## Simulated payments data monitoring in Elastic
 
 The responsibility of Boku as a payment processor is to monitor all transactions made between different merchants and payment providers in order to detect outages there as quickly as possible. Outages may happen both on the payment provider side (resulting as increase in failed transactions) or on the merchant side (resulting in reduced amount of incoming traffic).  
