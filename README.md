@@ -3,6 +3,7 @@
 * Add Daily and Weekly Traffic Distribution using random.nextGaussian
 * Use Index LifeCycle Management Policy for Rolling Over Index and Moving to Cold Phase for retention
 * Use Transforms to get aggregated information of Daily Data.
+* REST API in /elastic_api/console_api.md
 
 
 ## Simulated payments data monitoring in Elastic
